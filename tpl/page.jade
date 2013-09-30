@@ -1,0 +1,24 @@
+doctype 5
+html
+	head
+		title= "Real time web chat"
+		link(rel='stylesheet', href='/css/style.css')
+		script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.js')
+		script(src='/js/chat.js')
+		script(src='/socket.io/socket.io.js')
+	body
+		#wrap
+			#header
+				h1	ekembi chat © 2013
+			#login
+				p	Nickname:
+					input#nickname
+			#chat
+				ol#messages
+			#sidebar
+				ol#usersConnected
+					p
+			#footer
+				form
+					input#message(type='text')
+					input#submit-message(type='button', value ='submit')

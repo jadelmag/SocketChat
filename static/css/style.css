@@ -1,0 +1,72 @@
+
+body, html {
+  margin:0;
+  padding:0;
+  color:#000;
+  background:#aaa;
+}
+
+#wrap {
+  width:800px;
+  margin:0 auto;
+  background:#bbb;
+}
+
+#header {
+  padding:5px 10px;
+  background:#ccc;
+}
+
+#login {
+  padding:5px 10px;
+  background:#ddd;
+}
+
+#chat {
+  float:left;
+  width: 500px; 
+  height: 300px; 
+  margin: 0 0 20px 0; 
+  padding:10px;
+  border: solid 1px #999; 
+  overflow-y: scroll;
+  background:#eee;
+}
+
+h2 {
+  margin:0 0 1em;
+}
+
+#sidebar {
+  float:right;
+  width:230px;
+  height: 300px; 
+  padding:10px;
+  border: solid 1px #999; 
+  overflow-y: scroll;
+  background:#eee;
+}
+
+#sidebar li {
+  margin-left: 20px;
+  padding:0;
+  list-style:none;
+}
+
+#footer {
+  clear:both;
+  padding:5px 10px;
+  background:#eee;
+}
+
+#footer p {
+  margin:0;
+}
+
+#message {
+  width: 600px;
+}
+
+* html #footer {
+  height:1px;
+}
